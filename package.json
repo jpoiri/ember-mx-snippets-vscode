@@ -1,0 +1,21 @@
+{
+    "name": "ember-mx-snippets",
+    "displayName": "ember-mx-snippets",
+    "description": "Snippets for ember-mx components",
+    "version": "0.0.1",
+    "publisher": "jpoiri",
+    "engines": {
+        "vscode": "^1.24.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "handlebars",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}

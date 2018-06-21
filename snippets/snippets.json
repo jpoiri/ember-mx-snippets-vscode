@@ -1,0 +1,1061 @@
+{
+	"mx-button": {
+		"prefix": "mx-button",
+		"body": [
+			"{{mx-button action=(action \"${1:actionName}\") ",
+			"\t\t\tlabel=(t \"${2:labelKey}\")}}"
+		],
+		"description": "Generate mx-button with a label and a action property."
+	},
+	"mx-button-async": {
+		"prefix": "mx-button-async",
+		"body": [
+			"{{mx-button action=(action \"${1:actionName}\") ",
+			"\t\t\tlabel=(t \"${2:labelKey}\")",
+			"\t\t\tasync=true",
+			"\t\t\tpendingMessage=(t \"${3:messageKey}\")}}"
+		],
+		"description": "Generate mx-button with a async, action, label and a pendingMessage property."
+	},
+	"mx-button-submit": {
+		"prefix": "mx-button-submit",
+		"body": [
+			"{{mx-button action=(action \"${1:actionName}\") ",
+			"\t\t\tlabel=(t \"${2:labelKey}\")",
+			"\t\t\tsubmit=true}}"
+		],
+		"description": "Generate mx-button with a action, label and a submit property."
+	},
+	"mx-button-validate": {
+		"prefix": "mx-button-validate",
+		"body": [
+			"{{mx-button action=(action \"${1:actionName}\") ",
+			"\t\t\tlabel=(t \"${2:labelKey}\")",
+			"\t\t\tvalidate=true}}"
+		],
+		"description": "Generate mx-button with a action, label and a validate property."
+	},
+	"mx-button-icon": {
+		"prefix": "mx-button-icon",
+		"body": [
+			"{{mx-button action=(action \"${1:actionName}\") ",
+			"\t\t\tlabel=(t \"${2:labelKey}\")",
+			"\t\t\ticonClass=\"${3:iconClass}\"",
+			"\t\t\ticonPosition=\"${4|left,right|}\"}}"
+		],
+		"description": "Generate mx-button with a icon, iconPosition and a label property."
+	},
+	"mx-button-async-validate": {
+		"prefix": "mx-button-async-validate",
+		"body": [
+			"{{mx-button action=(action \"${1:actionName}\") ",
+			"\t\t\tlabel=(t \"${2:labelKey}\")",
+			"\t\t\tasync=true",
+			"\t\t\tvalidate=true",
+			"\t\t\tpendingMessage=(t \"${3:messageKey}\")}}"
+		],
+		"description": "Generate mx-button with a action, async, label, pendingMessage and a validate property."
+	},
+	"mx-button-async-validate-submit": {
+		"prefix": "mx-button-async-validate-submit",
+		"body": [
+			"{{mx-button action=(action \"${1:actionName}\") ",
+			"\t\t\tlabel=(t \"${2:labelKey}\")",
+			"\t\t\tasync=true",
+			"\t\t\tvalidate=true",
+			"\t\t\tsubmit=true",
+			"\t\t\tpendingMessage=(t \"${3:messageKey}\")}}"
+		],
+		"description": "Generate mx-button with a action, async, label, pendingMessage, submit and a validate property."
+	},
+	"mx-button-async-validate-submit-icon": {
+		"prefix": "mx-button-async-validate-submit-icon",
+		"body": [
+			"{{mx-button action=(action \"${1:actionName}\") ",
+			"\t\t\tlabel=(t \"${2:labelKey}\")",
+			"\t\t\tasync=true",
+			"\t\t\tvalidate=true",
+			"\t\t\tsubmit=true",
+			"\t\t\tpendingMessage=(t \"${3:messageKey}\")",
+			"\t\t\ticonClass=\"${4:iconClass}\"",
+			"\t\t\ticonPosition=\"${5|left,right|}\"}}"
+		],
+		"description": "Generate mx-button with a action, async, icon, iconPosition, label, pendingMessage, submit and a validate property."
+	},
+	"mx-button-primary": {
+		"prefix": "mx-button-primary",
+		"body": [
+			"{{mx-button action=(action \"${1:actionName}\") ",
+			"\t\t\tlabel=(t \"${2:labelKey}\")",
+			"\t\t\ttype=\"primary\"}}"
+		],
+		"description": "Generate a primary mx-button with a label and a action property."
+	},
+	"mx-button-primary-async": {
+		"prefix": "mx-button-primary-async",
+		"body": [
+			"{{mx-button action=(action \"${1:actionName}\") ",
+			"\t\t\tlabel=(t \"${2:labelKey}\")",
+			"\t\t\tasync=true",
+			"\t\t\tpendingMessage=(t \"${3:messageKey}\")",
+			"\t\t\ttype=\"primary\"}}"
+		],
+		"description": "Generate a primary mx-button with a async, action, label and a pendingMessage property."
+	},
+	"mx-button-primary-submit": {
+		"prefix": "mx-button-primary-submit",
+		"body": [
+			"{{mx-button action=(action \"${1:actionName}\") ",
+			"\t\t\tlabel=(t \"${2:labelKey}\")",
+			"\t\t\tsubmit=true",
+			"\t\t\ttype=\"primary\"}}"
+		],
+		"description": "Generate a primary mx-button with a action, label and a submit property."
+	},
+	"mx-button-primary-validate": {
+		"prefix": "mx-button-primary-validate",
+		"body": [
+			"{{mx-button action=(action \"${1:actionName}\") ",
+			"\t\t\tlabel=(t \"${2:labelKey}\")",
+			"\t\t\tvalidate=true",
+			"\t\t\ttype=\"primary\"}}"
+		],
+		"description": "Generate a primary mx-button with a action, label and a validate property."
+	},
+	"mx-button-primary-icon": {
+		"prefix": "mx-button-primary-icon",
+		"body": [
+			"{{mx-button action=(action \"${1:actionName}\") ",
+			"\t\t\tlabel=(t \"${2:labelKey}\")",
+			"\t\t\ticonClass=\"${3:iconClass}\"",
+			"\t\t\ticonPosition=\"${4:|left,right|}\"",
+			"\t\t\ttype=\"primary\"}}"
+		],
+		"description": "Generate a primary mx-button with a icon, iconPosition and a label property."
+	},
+	"mx-button-primary-async-validate": {
+		"prefix": "mx-button-primary-async-validate",
+		"body": [
+			"{{mx-button action=(action \"${1:actionName}\") ",
+			"\t\t\tlabel=(t \"${2:labelKey}\")",
+			"\t\t\tasync=true",
+			"\t\t\tvalidate=true",
+			"\t\t\tpendingMessage=(t \"${3:messageKey}\")",
+			"\t\t\ttype=\"primary\"}}"
+		],
+		"description": "Generate a primary mx-button with a action, async, label, pendingMessage and a validate property."
+	},
+	"mx-button-primary-async-validate-submit": {
+		"prefix": "mx-button-primary-async-validate-submit",
+		"body": [
+			"{{mx-button action=(action \"${1:actionName}\") ",
+			"\t\t\tlabel=(t \"${2:labelKey}\")",
+			"\t\t\tasync=true",
+			"\t\t\tvalidate=true",
+			"\t\t\tsubmit=true",
+			"\t\t\tpendingMessage=(t \"${3:messageKey}\")",
+			"\t\t\ttype=\"primary\"}}"
+		],
+		"description": "Generate ap primary mx-button with a action, async, label, pendingMessage, submit and a validate property."
+	},
+	"mx-button-primary-async-validate-submit-icon": {
+		"prefix": "mx-button-primary-async-validate-submit-icon",
+		"body": [
+			"{{mx-button action=(action \"${1:actionName}\") ",
+			"\t\t\tlabel=(t \"${2:labelKey}\")",
+			"\t\t\tasync=true",
+			"\t\t\tvalidate=true",
+			"\t\t\tsubmit=true",
+			"\t\t\tpendingMessage=(t \"${3:messageKey}\")",
+			"\t\t\ticonClass=\"${4:iconClass}\"",
+			"\t\t\ticonPosition=\"${5|left,right|}\"",
+			"\t\t\ttype=\"primary\"}}"
+		],
+		"description": "Generate a primary mx-button with a action, async, icon, iconPosition, label, pendingMessage, submit and a validate property."
+	},
+	"mx-button-bar": {
+		"prefix": "mx-button-bar",
+		"body": [
+			"{{#mx-button-bar}}",
+			"\n\n{{/mx-button-bar}}"
+		],
+		"description": "Generate a mx-button-group."
+	},
+	"mx-card": {
+		"prefix": "mx-card",
+		"body": [
+			"{{#mx-card}}",
+			"\n\n{{/mx-card}}"
+		],
+		"description": "Generate a mx-card."
+	},
+	"mx-card-list": {
+		"prefix": "mx-card-list",
+		"body": [
+			"{{#mx-card-list items=${1:array}",
+			"\t\t\t\taddAction=(action \"${2:actionName}\")",
+			"\t\t\t\tremoveAction=(action \"${3:actionName}\")}}",
+			"\n\n{{/mx-cardlist}}"
+		],
+		"description": "Generate a mx-card-list with a items, addAction and a removeAction property."
+	},
+	"mx-checkbox": {
+		"prefix": "mx-checkbox",
+		"body": [
+			"{{mx-checkbox label=(t \"${1:labelKey}\")",
+			"\t\t\tchecked=${checked}}}"
+		],
+		"description": "Generate a mx-checkbox with a label and checked property."
+	},
+	"mx-checkbox-required": {
+		"prefix": "mx-checkbox-required",
+		"body": [
+			"{{mx-checkbox label=(t \"${1:labelKey}\")",
+			"\t\t\tchecked=${2:checked}",
+			"\t\t\trequired=true",
+			"\t\t\trequiredMessage=(t \"${3:messagekey}\")}}"
+		],
+		"description": "Generate a mx-checkbox with a label, checked, required and requiredMessage property."
+	},
+	"mx-checkbox-group": {
+		"prefix": "mx-checkbox-group",
+		"body": [
+			"{{mx-checkbox-group label=(t \"${1:labelKey}\")",
+			"\t\t\t\t\tvalue=${2:value}",
+			"\t\t\t\t\titems=${3:array}",
+			"\t\t\t\t\titemLabelProperty=\"${4:propertyName}\"",
+			"\t\t\t\t\titemValueProperty=\"${5:propertyName}\"}}",
+		],
+		"description": "Generate a mx-checkbox-group with a label, value, items, itemLabelProperty and a itemValueProperty property."
+	},
+	"mx-checkbox-group-required": {
+		"prefix": "mx-checkbox-group-required",
+		"body": [
+			"{{mx-checkbox-group label=(t \"${1:labelKey}\")",
+			"\t\t\t\t\tvalue=${2:value}",
+			"\t\t\t\t\titems=${3:array}",
+			"\t\t\t\t\titemLabelProperty=\"${4:propertyName}\"",
+			"\t\t\t\t\titemValueProperty=\"${5:propertyName}\"",
+			"\t\t\t\t\trequired=true",
+			"\t\t\t\t\trequiredMessage=(t \"${6:requiredMessageKey}\")}}",
+
+		],
+		"description": "Generate a mx-checkbox-group with a label, value, items, itemLabelProperty, itemValueProperty, required and requiredMessage property."
+	},
+	"mx-checkbox-group-custom-validator": {
+		"prefix": "mx-checkbox-group-custom-validator",
+		"body": [
+			"{{#mx-checkbox-group label=(t \"${1:labelKey}\")",
+			"\t\t\t\t\tvalue=${2:value}",
+			"\t\t\t\t\titems=${3:array}",
+			"\t\t\t\t\titemLabelProperty=\"${4:propertyName}\"",
+			"\t\t\t\t\titemValueProperty=\"${5:propertyName}\" as |group| }}",
+			"\n\t\t{{group.validator action=(action \"${6:actionName}\") message=(t \"${7:messagePropertyKey}\") }}",
+			"\n{{/mx-checkbox-group}}"
+		],
+		"description": "Generate a mx-checkbox-group with a label, value, items, itemLabelProperty, itemValueProperty and custom validator."
+	},
+	"mx-checkbox-group-required-custom-validator": {
+		"prefix": "mx-checkbox-group-required-custom-validator",
+		"body": [
+			"{{#mx-checkbox-group label=(t \"${1:labelKey}\")",
+			"\t\t\t\t\tvalue=${2:value}",
+			"\t\t\t\t\titems=${3:array}",
+			"\t\t\t\t\titemLabelProperty=\"${4:propertyName}\"",
+			"\t\t\t\t\ttitemValueProperty=\"${5:propertyName}\"",
+			"\t\t\t\t\trequired=true",
+			"\t\t\t\t\trequiredMessage=(t \"${6:requiredMessageKey}\") as |group| }}",
+			"\n\t{{group.validator action=(action \"${7:actionName}\") message=(t \"${8:messagePropertyKey}\") }}",
+			"\n{{/mx-checkbox-group}}"
+		],
+		"description": "Generate a mx-checkbox-group with a label, value, items, itemLabelProperty, itemValueProperty, required, requiredMessage and custom validator."
+	},
+	"mx-confirm-modal": {
+		"prefix": "mx-confirm-modal",
+		"body": [
+			"{{mx-confirm-modal confirmAction=(action \"${1:actionName}\")",
+			"\t\t\t\tcancelAction=(action \"${2:actionName}\")",
+			"\t\t\t\tvisible=${3:isVisible}}}"
+		],
+		"description": "Generate a mx-confirm-modal with confirmAction, cancelAction and visible property."
+	},
+	"mx-confirm-modal-block": {
+		"prefix": "mx-confirm-modal-block",
+		"body": [
+			"{{#mx-confirm-modal confirmAction=(action \"${1:actionName}\")",
+			"\t\t\t\t\tcancelAction=(action \"${2:actionName}\")",
+			"\t\t\t\t\tvisible=${3:isVisible}}}",
+			"\n\n{{/mx-confirm-modal}}"
+		],
+		"description": "Generate a mx-confirm-modal in block formn with confirmAction, cancelAction and visible property."
+	},
+	"mx-date-input": {
+		"prefix": "mx-date-input",
+		"body": [
+			"{{mx-date-input label=(t \"${1:labelKey}\")",
+			"\t\t\t\tvalue=${2:value}}}",
+		],
+		"description": "Generate a mx-date-input with a label and a value property."
+	},
+	"mx-date-input-required": {
+		"prefix": "mx-date-input-required",
+		"body": [
+			"{{mx-date-input label=(t \"${1:labelKey}\")",
+			"\t\t\t\tvalue=${2:value}",
+			"\t\t\t\trequired=true",
+			"\t\t\t\trequiredMessage=(t \"${3:messageKey}\")}}",
+		],
+		"description": "Generate a mx-date-input with a label, required, requiredMessage and a value property."
+	},
+	"mx-date-input-custom-validator": {
+		"prefix": "mx-date-input-custom-validator",
+		"body": [
+			"{{#mx-date-input label=(t \"${1:labelKey}\")",
+			"\t\t\t\tvalue=${2:value} as |input| }}",
+			"\n\t{{input.validator action=(action \"${4:actionName}\") message=(t \"${5:messageKey}\")}}",
+			"\n{{/mx-date-input}}"
+		],
+		"description": "Generate a mx-date-input with a label, required, requiredMessage, value property and a custom validator."
+	},
+	"mx-date-input-required-custom-validator": {
+		"prefix": "mx-date-input-required-custom-validator",
+		"body": [
+			"{{#mx-date-input label=(t \"${1:labelKey}\")",
+			"\t\t\t\tvalue=${2:value}",
+			"\t\t\t\trequired=true",
+			"\t\t\t\trequiredMessage=(t \"${3:messageKey}\") as |input| }}",
+			"\n\t{{input.validator action=(action \"${4:actionName}\") message=(t \"${5:messageKey}\")}}",
+			"\n{{/mx-date-input}}"
+		],
+		"description": "Generate a mx-date-input with a label, required, requiredMessage, value property and a custom validator."
+	},
+	"mx-email-input": {
+		"prefix": "mx-email-input",
+		"body": [
+			"{{mx-email-input label=(t \"${1:labelKey}\")",
+			"\t\t\t\tvalue=${2:value}}}",
+		],
+		"description": "Generate a mx-email-input with a label and a value property."
+	},
+	"mx-email-input-required": {
+		"prefix": "mx-email-input-required",
+		"body": [
+			"{{mx-email-input label=(t \"${1:labelKey}\")",
+			"\t\t\t\tvalue=${2:value}",
+			"\t\t\t\trequired=true",
+			"\t\t\t\trequiredMessage=(t \"${3:messageKey}\")}}",
+		],
+		"description": "Generate a mx-email-input with a label, required, requiredMessage and a value property."
+	},
+	"mx-email-input-custom-validator": {
+		"prefix": "mx-email-input-custom-validator",
+		"body": [
+			"{{#mx-email-input label=(t \"${1:labelKey}\")",
+			"\t\t\t\tvalue=${2:value} as |input| }}",
+			"\n\t{{input.validator action=(action \"${4:actionName}\") message=(t \"${5:messageKey}\")}}",
+			"\n{{/mx-date-input}}"
+		],
+		"description": "Generate a mx-email-input with a label, required, requiredMessage, value property and a custom validator."
+	},
+	"mx-email-input-required-custom-validator": {
+		"prefix": "mx-email-input-required-custom-validator",
+		"body": [
+			"{{#mx-email-input label=(t \"${1:labelKey}\")",
+			"\t\t\t\tvalue=${2:value}",
+			"\t\t\t\trequired=true",
+			"\t\t\t\trequiredMessage=(t \"${3:messageKey}\") as |input| }}",
+			"\n\t{{input.validator action=(action \"${4:actionName}\") message=(t \"${5:messageKey}\")}}",
+			"\n{{/mx-date-input}}"
+		],
+		"description": "Generate a mx-email-input with a label, required, requiredMessage, value property and a custom validator."
+	},
+	"mx-form": {
+		"prefix": "mx-form",
+		"body": [
+			"{{#mx-form}}",
+			"\n\n{{/mx-form}}"
+		],
+		"description": "Generate a mx-form."
+	},
+	"mx-input": {
+		"prefix": "mx-input",
+		"body": [
+			"{{mx-input label=(t \"${1:labelKey}\")",
+			"\t\tvalue=${2:value}}}"
+		],
+		"description": "Generate a mx-input with a label and a value property."
+	},
+	"mx-input-required": {
+		"prefix": "mx-input-required",
+		"body": [
+			"{{mx-input label=(t \"${1:labelKey}\")",
+			"\t\tvalue=${2:value}",
+			"\t\trequired=true",
+			"\t\trequiredMessage=(t \"${3:messageKey}\")}}"
+		],
+		"description": "Generate a mx-input with a label, required, requiredMessage and a value property."
+	},
+	"mx-input-digits": {
+		"prefix": "mx-input-digits",
+		"body": [
+			"{{mx-input label=(t \"${1:labelKey}\")",
+			"\t\tvalue=${2:value}",
+			"\t\ttype=\"digits\"",
+			"\t\ttypeMessage=(t \"${3:messageKey}\")}}"
+		],
+		"description": "Generate a mx-input with a label, type, typeMessage and a value property."
+	},
+	"mx-input-digits-required": {
+		"prefix": "mx-input-digits-required",
+		"body": [
+			"{{mx-input label=(t \"${1:labelKey}\")",
+			"\t\tvalue=${2:value}",
+			"\t\trequired=true",
+			"\t\trequiredMessage=(t \"${3:messageKey}\")",
+			"\t\ttype=\"digits\"",
+			"\t\ttypeMessage=(t \"${4:messageKey}\")}}"
+		],
+		"description": "Generate a mx-input with a label, required, requiredMessage type, typeMessage and a value property."
+	},
+	"mx-input-range": {
+		"prefix": "mx-input-range",
+		"body": [
+			"{{mx-input label=(t \"${1:labelKey}\")",
+			"\t\tvalue=${2:value}",
+			"\t\trange=\"[${3:minRange},${4:maxRange}]\"",
+			"\t\trangeMessage=(t \"${5:messageKey}\")}}"
+		],
+		"description": "Generate a mx-input with a label, range, rangeMessage and a value property."
+	},
+	"mx-input-range-required": {
+		"prefix": "mx-input-range-required",
+		"body": [
+			"{{mx-input label=(t \"${1:labelKey}\")",
+			"\t\tvalue=${2:value}",
+			"\t\trequired=true",
+			"\t\trequiredMessage=(t \"${3:messageKey}\")",
+			"\t\trange=\"[${4:minRange},${5:maxRange}]\"",
+			"\t\trangeMessage=(t \"${6:messageKey}\")}}"
+		],
+		"description": "Generate a mx-input with a label, range, rangeMessage, required, requiredMessage and a value property."
+	},
+	"mx-input-maximum-length": {
+		"prefix": "mx-input-maximum-length",
+		"body": [
+			"{{mx-input label=(t \"${1:labelKey}\")",
+			"\t\tvalue=${2:value}",
+			"\t\tmaximumLength=${3:maxLenght}",
+			"\t\tmaximumLengthMessage=(t \"${4:messageKey}\")}}"
+		],
+		"description": "Generate a mx-input with a label, maximumLength, maximumLengthMessage and a value property."
+	},
+	"mx-input-maximum-length-required": {
+		"prefix": "mx-input-maximum-length-required",
+		"body": [
+			"{{mx-input label=(t \"${1:labelKey}\")",
+			"\t\tvalue=${2:value}",
+			"\t\trequired=true",
+			"\t\trequiredMessage=(t \"${3:messageKey}\")",
+			"\t\tmaximumLength=${4:maxLenght}",
+			"\t\tmaximumLengthMessage=(t \"${5:messageKey}\")}}"
+		],
+		"description": "Generate a mx-input with a label, maximumLength, maximumLengthMessage, required, requiredMessage and a value property."
+	},
+	"mx-input-minimum-length": {
+		"prefix": "mx-input-minimum-length",
+		"body": [
+			"{{mx-input label=(t \"${1:labelKey}\")",
+			"\t\tvalue=${2:value}",
+			"\t\tminimumLength=${3:minLenght}",
+			"\t\tminimumLengthMessage=(t \"${4:messageKey}\")}}"
+		],
+		"description": "Generate a mx-input with a label, minimumLength, minimumLengthMessage and a value property."
+	},
+	"mx-input-minimum-length-required": {
+		"prefix": "mx-input-minimum-length-required",
+		"body": [
+			"{{mx-input label=(t \"${1:labelKey}\")",
+			"\t\tvalue=${2:value}",
+			"\t\trequired=true",
+			"\t\trequiredMessage=(t \"${3:messageKey}\")",
+			"\t\tminimumLength=${4:maxLenght}",
+			"\t\tminimumLengthMessage=(t \"${5:messageKey}\")}}"
+		],
+		"description": "Generate a mx-input with a label, minimumLength, minimumLengthMessage, required, requiredMessage and a value property."
+	},
+	"mx-input-maximum-value": {
+		"prefix": "mx-input-maximum-value",
+		"body": [
+			"{{mx-input label=(t \"${1:labelKey}\")",
+			"\t\tvalue=${2:value}",
+			"\t\tmaximumValue=${3:maxValue}",
+			"\t\tmaximumValueMessage=(t \"${4:messageKey}\")}}"
+		],
+		"description": "Generate a mx-input with a label, maximumValue, maximumValueMessage and a value property."
+	},
+	"mx-input-maximum-value-required": {
+		"prefix": "mx-input-maximum-value-required",
+		"body": [
+			"{{mx-input label=(t \"${1:labelKey}\")",
+			"\t\tvalue=${2:value}",
+			"\t\trequired=true",
+			"\t\trequiredMessage=(t \"${3:messageKey}\")",
+			"\t\tmaximumValue=${4:maxValue}",
+			"\t\tmaximumValueMessage=(t \"${5:messageKey}\")}}"
+		],
+		"description": "Generate a mx-input with a label, maximumValue, maximumValueMessage, required, requiredMessage and a value property."
+	},
+	"mx-input-minimum-value": {
+		"prefix": "mx-input-minimum-value",
+		"body": [
+			"{{mx-input label=(t \"${1:labelKey}\")",
+			"\t\tvalue=${2:value}",
+			"\t\tminimumValue=${3:minValue}",
+			"\t\tminimumValueMessage=(t \"${4:messageKey}\")}}"
+		],
+		"description": "Generate a mx-input with a label, minimumValue, minimumValueMessage and a value property."
+	},
+	"mx-input-minimum-value-required": {
+		"prefix": "mx-input-minimum-value-required",
+		"body": [
+			"{{mx-input label=(t \"${1:labelKey}\")",
+			"\t\tvalue=${2:value}",
+			"\t\trequired=true",
+			"\t\trequiredMessage=(t \"${3:messageKey}\")",
+			"\t\tminimumValue=${4:minValue}",
+			"\t\tminimumValueMessage=(t \"${5:messageKey}\")}}"
+		],
+		"description": "Generate a mx-input with a label, minimumValue, minimumValueMessage, required, requiredMessage and a value property."
+	},
+	"mx-input-pattern": {
+		"prefix": "mx-input-pattern",
+		"body": [
+			"{{mx-input label=(t \"${1:labelKey}\")",
+			"\t\tvalue=${2:value}",
+			"\t\tpattern=\"${3:regExp}\"",
+			"\t\tpatternMessage=(t \"${4:messageKey}\")}}"
+		],
+		"description": "Generate a mx-input with a label, pattern, patternMessage and a value property."
+	},
+	"mx-input-pattern-required": {
+		"prefix": "mx-input-pattern-required",
+		"body": [
+			"{{mx-input label=(t \"${1:labelKey}\")",
+			"\t\tvalue=${2:value}",
+			"\t\trequired=true",
+			"\t\trequiredMessage=(t \"${3:messageKey}\")",
+			"\t\tpattern=\"${4:regExp}\"",
+			"\t\tpatternMessage=(t \"${5:messageKey}\")}}"
+		],
+		"description": "Generate a mx-input with a label, pattern, patternMessage, required, requiredMessage and a value property."
+	},
+	"mx-input-custom-validator": {
+		"prefix": "mx-input-custom-validator",
+		"body": [
+			"{{#mx-input label=(t \"${1:label}\")",
+			"\t\t\tvalue=${2:value} as |input| }}",
+			"\n\t{{input.validator action=(action \"${3:actionName}\") message=(t \"${4:messageKey}\"}})",
+			"\n{{/mx-input}}"
+		],
+		"description": "Generate a mx-input with a label, value property and a custom validator."
+	},
+	"mx-input-custom-validator-required": {
+		"prefix": "mx-input-custom-validator-required",
+		"body": [
+			"{{#mx-input label=\"${1:label}\"",
+			"\t\t\tvalue=${2:value}",
+			"\t\t\trequired=true",
+			"\t\t\trequiredMessage=(t \"${3:messageKey}\" as |input| }}",
+			"\n\t{{input.validator action=(action \"${3:actionName}\") message=(t \"${4:messageKey}\")}}",
+			"\n{{/mx-input}}"
+		],
+		"description": "Generate a mx-input with a label, required, requiredMessage, value property and a custom validator."
+	},
+	"mx-link": {
+		"prefix": "mx-link",
+		"body": [
+			"{{mx-link action=(action \"${1:actionName}\") ",
+			"\tlabel=(t \"${2:labelKey}\")}}"
+		],
+		"description": "Generate mx-link with a label and a action property."
+	},
+	"mx-link-async": {
+		"prefix": "mx-link-async",
+		"body": [
+			"{{mx-link action=(action \"${1:actionName}\") ",
+			"\tlabel=(t \"${2:labelKey}\")",
+			"\tasync=true",
+			"\tpendingMessage=(t \"${3:messageKey}\")}}"
+		],
+		"description": "Generate mx-link with a async, action, label and a pendingMessage property."
+	},
+	"mx-link-validate": {
+		"prefix": "mx-link-validate",
+		"body": [
+			"{{mx-link action=(action \"${1:actionName}\") ",
+			"\tlabel=(t \"${2:labelKey}\")",
+			"\tvalidate=true}}"
+		],
+		"description": "Generate mx-link with a action, label and a validate property."
+	},
+	"mx-link-icon": {
+		"prefix": "mx-link-icon",
+		"body": [
+			"{{mx-link action=(action \"${1:actionName}\") ",
+			"\tlabel=(t \"${2:labelKey}\")",
+			"\ticonClass=\"${3:iconClass}\"",
+			"\ticonPosition=\"${4|left,right|}\"}}"
+		],
+		"description": "Generate mx-link with a icon, iconPosition and a label property."
+	},
+	"mx-link-validate-icon": {
+		"prefix": "mx-link-validate-icon",
+		"body": [
+			"{{mx-link action=(action \"${1:actionName}\") ",
+			"\tlabel=(t \"${2:labelKey}\")",
+			"\tvalidate=true",
+			"\ticonClass=\"${3:iconClass}\"",
+			"\ticonPosition=\"${4|left,right|}\"}}"
+		],
+		"description": "Generate mx-link with a icon, iconPosition, label and a validate property."
+	},
+	"mx-link-async-validate": {
+		"prefix": "mx-link-async-validate",
+		"body": [
+			"{{mx-link action=(action \"${1:actionName}\") ",
+			"\tlabel=(t \"${2:labelKey}\")",
+			"\tasync=true",
+			"\tvalidate=true",
+			"\tpendingMessage=(t \"${3:messageKey}\")}}"
+		],
+		"description": "Generate mx-link with a action, async, label, pendingMessage and a validate property."
+	},
+	"mx-link-async-validate-icon": {
+		"prefix": "mx-link-async-validate-icon",
+		"body": [
+			"{{mx-link action=(action \"${1:actionName}\") ",
+			"\tlabel=(t \"${2:labelKey}\")",
+			"\tasync=true",
+			"\tvalidate=true",
+			"\ticonClass=\"${3:iconClass}\"",
+			"\ticonPosition=\"${4|left,right|}\"",
+			"\tpendingMessage=(t \"${5:messageKey}\")}}"
+		],
+		"description": "Generate mx-link with a action, async, label, iconClass, iconPosition, pendingMessage and a validate property."
+	},
+	"mx-link-block": {
+		"prefix": "mx-link-block",
+		"body": [
+			"{{#mx-link action=(action \"${1:actionName}\") ",
+			"\tlabel=(t \"${2:labelKey}\")}}",
+			"\n\n{{/mx-link}}"
+		],
+		"description": "Generate mx-link in the block form with a label and a action property."
+	},
+	"mx-link-block-async": {
+		"prefix": "mx-link-block-async",
+		"body": [
+			"{{#mx-link action=(action \"${1:actionName}\") ",
+			"\tlabel=(t \"${2:labelKey}\")",
+			"\tasync=true",
+			"\tpendingMessage=(t \"${3:messageKey}\")}}",
+			"\n\n{{/mx-link}}"
+		],
+		"description": "Generate mx-link in the block form with a async, label and a action property."
+	},
+	"mx-link-block-validate": {
+		"prefix": "mx-link-block-validate",
+		"body": [
+			"{{#mx-link action=(action \"${1:actionName}\") ",
+			"\tlabel=(t \"${2:labelKey}\")",
+			"\tvalidate=true}}",
+			"\n\n{{/mx-link}}"
+		],
+		"description": "Generate mx-link in the block form with a action, label and a validate property."
+	},
+	"mx-link-block-validate-icon": {
+		"prefix": "mx-link-block-validate-icon",
+		"body": [
+			"{{#mx-link action=(action \"${1:actionName}\") ",
+			"\tlabel=(t \"${2:labelKey}\")",
+			"\tvalidate=true",
+			"\tshowLabel=false",
+			"\ticonClass=\"${3:iconClass}\"",
+			"\ticonPosition=\"${4|left,right|}\"}}",
+			"\n\n{{/mx-link}}"
+		],
+		"description": "Generate mx-link in the block form with a action, label and a validate property."
+	},
+	"mx-link-block-icon": {
+		"prefix": "mx-link-block-icon",
+		"body": [
+			"{{#mx-link action=(action \"${1:actionName}\") ",
+			"\tlabel=(t \"${2:labelKey}\")",
+			"\ticonClass=\"${3:iconClass}\"",
+			"\ticonPosition=\"${4|left,right|}\"}}",
+			"\n\n{{/mx-link}}"
+		],
+		"description": "Generate mx-link in the block form with a action, label, iconClass and a iconPosition property."
+	},
+	"mx-link-block-async-validate": {
+		"prefix": "mx-link-block-async-validate",
+		"body": [
+			"{{#mx-link action=(action \"${1:actionName}\") ",
+			"\tlabel=(t \"${2:labelKey}\")",
+			"\tvalidate=true",
+			"\tasync=true",
+			"\tpendingMessage=(t \"${3:messageKey}\")}}",
+			"\n\n{{/mx-link}}"
+		],
+		"description": "Generate mx-link in the block form with a action, label, async, pendingMessage and a validate property."
+	},
+	"mx-link-block-async-validate-icon": {
+		"prefix": "mx-link-block-async-validate-icon",
+		"body": [
+			"{{#mx-link action=(action \"${1:actionName}\") ",
+			"\tlabel=(t \"${2:labelKey}\")",
+			"\tvalidate=true",
+			"\tasync=true",
+			"\ticonClass=\"${3:iconClass}\"",
+			"\ticonPosition=\"${4|left,right|}\"",
+			"\tpendingMessage=(t \"${5:messageKey}\")}}",
+			"\n\n{{/mx-link}}"
+		],
+		"description": "Generate mx-link in the block form with a action, async, iconClass, iconPosition, label, pendingMessage and a validate property."
+	},
+	"mx-modal": {
+		"prefix": "mx-modal",
+		"body": [
+			"{{#mx-modal visible=${1:isVisible}}}",
+			"\n\n{{/mx-modal}}"
+		],
+		"description": "Generate mx-modal with a visible property."
+	},
+	"mx-modal-custom-footer-header": {
+		"prefix": "mx-modal-custom-footer-header",
+		"body": [
+			"{{#mx-modal visible=${1:isVisible} as |modal| }}",
+			"\t{{#modal.header}}\n",
+			"\t{{/modal.header}}",
+			"\t{{#modal.body}}\n",
+			"\t{{/modal.body}}",
+			"\t{{#modal.footer}}\n",
+			"\t{{/modal.footer}}",
+			"{{/mx-modal}}"
+		],
+		"description": "Generate mx-modal with a visible property and the ability to customize footer and header."
+	},
+	"mx-month-year-input": {
+		"prefix": "mx-month-year-input",
+		"body": [
+			"{{mx-month-year-input label=(t \"${1:labelKey}\")",
+			"\t\t\t\t\tvalue=${2:value}}}"
+		],
+		"description": "Generate a mx-month-year-input with a label and a value property."
+	},
+	"mx-month-year-input-required": {
+		"prefix": "mx-month-year-input-required",
+		"body": [
+			"{{mx-month-year-input label=(t \"${1:labelKey}\")",
+			"\t\t\t\t\tvalue=${2:value}",
+			"\t\t\t\t\trequired=true",
+			"\t\t\t\t\trequiredMessage=(t \"${3:messageKey}\")}}",
+		],
+		"description": "Generate a mx-month-year-input with a label, required, requiredMessage and a value property."
+	},
+	"mx-month-year-input-custom-validator": {
+		"prefix": "mx-month-year-input-custom-validator",
+		"body": [
+			"{{#mx-month-year-input label=(t \"${1:labelKey}\")",
+			"\t\t\t\t\tvalue=${2:value} as |input| }}",
+			"\n\t{{input.validator action=(action \"${4:actionName}\") message=(t \"${5:messageKey}\")}}",
+			"\n{{/mx-month-year-input}}"
+		],
+		"description": "Generate a mx-month-year-input with a label, required, requiredMessage, value property and a custom validator."
+	},
+	"mx-month-year-input-required-custom-validator": {
+		"prefix": "mx-month-year-input-required-custom-validator",
+		"body": [
+			"{{#mx-month-year-input label=(t \"${1:labelKey}\")",
+			"\t\t\t\t\tvalue=${2:value}",
+			"\t\t\t\t\trequired=true",
+			"\t\t\t\t\trequiredMessage=(t \"${3:messageKey}\") as |input| }}",
+			"\n\t{{input.validator action=(action \"${4:actionName}\") message=(t \"${5:messageKey}\")}}",
+			"\n{{/mx-month-year-input}}"
+		],
+		"description": "Generate a mx-month-year-input with a label, required, requiredMessage, value property and a custom validator."
+	},
+	"mx-notifications": {
+		"prefix": "mx-notifications",
+		"body": [
+			"{{mx-notifications}}"
+		],
+		"description": "Generate a mx-notifications."
+	},
+	"mx-notifications-for": {
+		"prefix": "mx-notifications-for",
+		"body": [
+			"{{mx-notifications for=\"${1:queueName}\"}}"
+		],
+		"description": "Generate a mx-notifications with a for property."
+	},
+	"mx-phone-number-input": {
+		"prefix": "mx-phone-number-input",
+		"body": [
+			"{{mx-phone-number-input label=(t \"${1:labelKey}\")",
+			"\t\t\t\t\t\tvalue=${2:value}}}",
+		],
+		"description": "Generate a mx-phone-number-input with a label and a value property."
+	},
+	"mx-phone-number-input-required": {
+		"prefix": "mx-phone-number-input-required",
+		"body": [
+			"{{mx-phone-number-input label=(t \"${1:labelKey}\")",
+			"\t\t\t\t\t\tvalue=${2:value}",
+			"\t\t\t\t\t\trequired=true",
+			"\t\t\t\t\t\trequiredMessage=(t \"${3:messageKey}\")}}",
+		],
+		"description": "Generate a mx-phone-number-input with a label, required, requiredMessage and a value property."
+	},
+	"mx-phone-number-input-custom-validator": {
+		"prefix": "mx-phone-number-input-custom-validator",
+		"body": [
+			"{{#mx-phone-number-input label=(t \"${1:labelKey}\")",
+			"\t\t\t\t\t\tvalue=${2:value} as |input| }}",
+			"\n\t{{input.validator action=(action \"${4:actionName}\") message=(t \"${5:messageKey}\")}}",
+			"\n{{/mx-phone-number-input}}"
+		],
+		"description": "Generate a mx-phone-number-input with a label, required, requiredMessage, value property and a custom validator."
+	},
+	"mx-phone-number-input-required-custom-validator": {
+		"prefix": "mx-phone-number-input-required-custom-validator",
+		"body": [
+			"{{#mx-phone-number-input label=(t \"${1:labelKey}\")",
+			"\t\t\t\t\t\tvalue=${2:value}",
+			"\t\t\t\t\t\trequired=true",
+			"\t\t\t\t\t\trequiredMessage=(t \"${3:messageKey}\") as |input| }}",
+			"\n\t{{input.validator action=(action \"${4:actionName}\") message=(t \"${5:messageKey}\")}}",
+			"\n{{/mx-phone-number-input}}"
+		],
+		"description": "Generate a mx-phone-number-input with a label, required, requiredMessage, value property and a custom validator."
+	},
+	"mx-postal-code-input": {
+		"prefix": "mx-postal-code-input",
+		"body": [
+			"{{mx-postal-code-input label=(t \"${1:labelKey}\")",
+			"\t\t\t\t\tvalue=${2:value}}}",
+		],
+		"description": "Generate a mx-postal-code-input with a label and a value property."
+	},
+	"mx-postal-code-input-required": {
+		"prefix": "mx-postal-code-input-required",
+		"body": [
+			"{{mx-postal-code-input label=(t \"${1:labelKey}\")",
+			"\t\t\t\t\tvalue=${2:value}",
+			"\t\t\t\t\trequired=true",
+			"\t\t\t\t\trequiredMessage=(t \"${3:messageKey}\")}}",
+		],
+		"description": "Generate a mx-postal-code-input with a label, required, requiredMessage and a value property."
+	},
+	"mx-postal-code-input-custom-validator": {
+		"prefix": "mx-postal-code-input-custom-validator",
+		"body": [
+			"{{#mx-postal-code-input label=(t \"${1:labelKey}\")",
+			"\t\t\t\t\t\tvalue=${2:value} as |input| }}",
+			"\n\t{{input.validator action=(action \"${4:actionName}\") message=(t \"${5:messageKey}\")}}",
+			"\n{{/mx-postal-code-input}}"
+		],
+		"description": "Generate a mx-postal-code-input with a label, required, requiredMessage, value property and a custom validator."
+	},
+	"mx-postal-code-input-required-custom-validator": {
+		"prefix": "mx-postal-code-input-required-custom-validator",
+		"body": [
+			"{{#mx-postal-code-input label=(t \"${1:labelKey}\")",
+			"\t\t\t\t\t\tvalue=${2:value}",
+			"\t\t\t\t\t\trequired=true",
+			"\t\t\t\t\t\trequiredMessage=(t \"${3:messageKey}\") as |input| }}",
+			"\n\t{{input.validator action=(action \"${4:actionName}\") message=(t \"${5:messageKey}\")}}",
+			"\n{{/mx-postal-code-input}}"
+		],
+		"description": "Generate a mx-postal-code-input with a label, required, requiredMessage, value property and a custom validator."
+	},
+	"mx-output": {
+		"prefix": "mx-output",
+		"body": [
+			"{{mx-output label=(t \"${1:labelKey}\")",
+			"\t\t\tvalue=${2:value}}}",
+		],
+		"description": "Generate a mx-output with a label and value property."
+	},
+	"mx-radio-button-group": {
+		"prefix": "mx-radio-button-group",
+		"body": [
+			"{{mx-radio-button-group label=(t \"${1:labelKey}\")",
+			"\t\t\t\t\tvalue=${2:value}",
+			"\t\t\t\t\titems=${3:array}",
+			"\t\t\t\t\titemLabelProperty=\"${4:propertyName}\"",
+			"\t\t\t\t\titemValueProperty=\"${5:propertyName}\"}}"
+		],
+		"description": "Generate a mx-radio-button-group with a label, value, items, itemLabelProperty and a itemValueProperty property."
+	},
+	"mx-radio-button-group-required": {
+		"prefix": "mx-radio-button-group-required",
+		"body": [
+			"{{mx-radio-button-group label=(t \"${1:labelKey}\")",
+			"\t\t\t\t\tvalue=${2:value}",
+			"\t\t\t\t\titems=${3:array}",
+			"\t\t\t\t\titemLabelProperty=\"${4:propertyName}\"",
+			"\t\t\t\t\titemValueProperty=\"${5:propertyName}\"",
+			"\t\t\t\t\trequired=true",
+			"\t\t\t\t\trequiredMessage=(t \"${6:messageKey}\")}}"
+
+		],
+		"description": "Generate a mx-radio-button-group with a label, value, items, itemLabelProperty, itemValueProperty, required and requiredMessage property."
+	},
+	"mx-radio-button-group-custom-validator": {
+		"prefix": "mx-radio-button-group-custom-validator",
+		"body": [
+			"{{#mx-radio-button-group label=(t \"${1:labelKey}\")",
+			"\t\t\t\t\tvalue=${2:value}",
+			"\t\t\t\t\titems=${3:array}",
+			"\t\t\t\t\titemLabelProperty=\"${4:propertyName}\"",
+			"\t\t\t\t\titemValueProperty=\"${5:propertyName}\" as |group| }}",
+			"\n\t\t{{group.validator action=(action \"${6:actionName}\") message=(t \"${7:messageKey}\") }}",
+			"\n{{/mx-radio-button-group}}"
+		],
+		"description": "Generate a mx-radio-button-group with a label, value, items, itemLabelProperty, itemValueProperty and custom validator."
+	},
+	"mx-radio-button-group-required-custom-validator": {
+		"prefix": "mx-radio-button-group-required-custom-validator",
+		"body": [
+			"{{#mx-radio-button-group label=(t \"${1:labelKey}\")",
+			"\t\t\t\t\tvalue=${2:value}",
+			"\t\t\t\t\titems=${3:array}",
+			"\t\t\t\t\titemLabelProperty=\"${4:propertyName}\"",
+			"\t\t\t\t\ttitemValueProperty=\"${5:propertyName}\"",
+			"\t\t\t\t\trequired=true",
+			"\t\t\t\t\trequiredMessage=(t \"${6:messageKey}\") as |group| }}",
+			"\n\t{{group.validator action=(action \"${7:actionName}\") message=(t \"${8:messageKey}\") }}",
+			"\n{{/mx-radio-button-group}}"
+		],
+		"description": "Generate a mx-radio-button-group with a label, value, items, itemLabelProperty, itemValueProperty, required, requiredMessage and custom validator."
+	},
+	"mx-select": {
+		"prefix": "mx-select",
+		"body": [
+			"{{mx-select label=(t \"${1:labelKey}\")",
+			"\t\t\tvalue=${2:value}",
+			"\t\t\titems=${3:array}",
+			"\t\t\titemLabelProperty=\"${4:propertyName}\"",
+			"\t\t\titemValueProperty=\"${5:propertyName}\"}}"
+		],
+		"description": "Generate a mx-select with a label, value, items, itemLabelProperty and a itemValueProperty property."
+	},
+	"mx-select-required": {
+		"prefix": "mx-select-required",
+		"body": [
+			"{{mx-select label=(t \"${1:labelKey}\")",
+			"\t\t\tvalue=${2:value}",
+			"\t\t\titems=${3:array}",
+			"\t\t\titemLabelProperty=\"${4:propertyName}\"",
+			"\t\t\titemValueProperty=\"${5:propertyName}\"",
+			"\t\t\trequired=true",
+			"\t\t\trequiredMessage=(t \"${6:messageKey}\")}}"
+
+		],
+		"description": "Generate a mx-select with a label, value, items, itemLabelProperty, itemValueProperty, required and requiredMessage property."
+	},
+	"mx-select-custom-validator": {
+		"prefix": "mx-select-custom-validator",
+		"body": [
+			"{{#mx-select label=(t \"${1:labelKey}\")",
+			"\t\t\tvalue=${2:value}",
+			"\t\t\titems=${3:array}",
+			"\t\t\titemLabelProperty=\"${4:propertyName}\"",
+			"\t\t\titemValueProperty=\"${5:propertyName}\" as |group| }}",
+			"\n\t\t{{group.validator action=(action \"${6:actionName}\") message=(t \"${7:messageKey}\") }}",
+			"\n{{/mx-select}}"
+		],
+		"description": "Generate a mx-select with a label, value, items, itemLabelProperty, itemValueProperty and custom validator."
+	},
+	"mx-select-required-custom-validator": {
+		"prefix": "mx-select-required-custom-validator",
+		"body": [
+			"{{#mx-select label=(t \"${1:labelKey}\")",
+			"\t\t\tvalue=${2:value}",
+			"\t\t\titems=${3:array}",
+			"\t\t\titemLabelProperty=\"${4:propertyName}\"",
+			"\t\t\ttitemValueProperty=\"${5:propertyName}\"",
+			"\t\t\trequired=true",
+			"\t\t\trequiredMessage=(t \"${6:messageKey}\") as |group| }}",
+			"\n\t{{group.validator action=(action \"${7:actionName}\") message=(t \"${8:messageKey}\") }}",
+			"\n{{/mx-select}}"
+		],
+		"description": "Generate a mx-select with a label, value, items, itemLabelProperty, itemValueProperty, required, requiredMessage and custom validator."
+	},
+	"mx-spinner": {
+		"prefix": "mx-spinner",
+		"body": [
+			"{{mx-spinner}}"
+		],
+		"description": "Generate a mx-spinner."
+	},
+	"mx-textarea": {
+		"prefix": "mx-textarea",
+		"body": [
+			"{{mx-textarea label=(t \"${1:labelKey}\")",
+			"\t\t\tvalue=${2:value}}}"
+		],
+		"description": "Generate a mx-textarea with a label and a value property."
+	},
+	"mx-textarea-required": {
+		"prefix": "mx-textarea-required",
+		"body": [
+			"{{mx-textarea label=(t \"${1:labelKey}\")",
+			"\t\t\tvalue=${2:value}",
+			"\t\t\trequired=true",
+			"\t\t\trequiredMessage=(t \"${3:messageKey}\")}}"
+		],
+		"description": "Generate a mx-textarea with a label, required, requiredMessage and a value property."
+	},
+	"mx-textarea-custom-validator": {
+		"prefix": "mx-textarea-custom-validator",
+		"body": [
+			"{{#mx-textarea label=(t \"${1:label}\")",
+			"\t\t\tvalue=${2:value} as |input| }}",
+			"\n\t{{input.validator action=(action \"${3:actionName}\") message=(t \"${4:messageKey}\")}}",
+			"\n{{/mx-textarea}}"
+		],
+		"description": "Generate a mx-textarea with a label, value property and a custom validator."
+	},
+	"mx-textarea-custom-validator-required": {
+		"prefix": "mx-textarea-custom-validator-required",
+		"body": [
+			"{{#mx-textarea label=\"${1:label}\"",
+			"\t\t\tvalue=${2:value}",
+			"\t\t\trequired=true",
+			"\t\t\trequiredMessage=(t \"${3:messageKey}\" as |input| }}",
+			"\n\t{{input.validator action=(action \"${3:actionName}\") message=(t \"${4:messageKey}\")}}",
+			"\n{{/mx-textarea}}"
+		],
+		"description": "Generate a mx-textarea with a label, required, requiredMessage, value property and a custom validator."
+	},
+	"mx-yes-no-toggle": {
+		"prefix": "mx-yes-no-toggle",
+		"body": [
+			"{{mx-yes-no-toggle label=(t \"${1:labelKey}\")",
+			"\t\t\t\tvalue=${2:value}}}"
+		],
+		"description": "Generate a mx-yes-no-toggle with a label and a value property."
+	},
+	"mx-yes-no-toggle-required": {
+		"prefix": "mx-yes-no-toggle-required",
+		"body": [
+			"{{mx-yes-no-toggle label=(t \"${1:labelKey}\")",
+			"\t\t\t\tvalue=${2:value}",
+			"\t\t\t\trequired=true",
+			"\t\t\t\trequiredMessage=(t \"${3:messageKey}\")}}"
+		],
+		"description": "Generate a mx-yes-no-toggle with a label, required, requiredMessage and a value property."
+	}
+}
