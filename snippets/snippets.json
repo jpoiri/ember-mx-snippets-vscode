@@ -224,7 +224,7 @@
 			"\t\t\t\t\tvalue=${2:value}",
 			"\t\t\t\t\titems=${3:array}",
 			"\t\t\t\t\titemLabelProperty=\"${4:propertyName}\"",
-			"\t\t\t\t\titemValueProperty=\"${5:propertyName}\"}}",
+			"\t\t\t\t\titemValueProperty=\"${5:propertyName}\"}}"
 		],
 		"description": "Generate a mx-checkbox-group with a label, value, items, itemLabelProperty and a itemValueProperty property."
 	},
@@ -293,7 +293,7 @@
 		"prefix": "mx-date-input",
 		"body": [
 			"{{mx-date-input label=(t \"${1:labelKey}\")",
-			"\t\t\t\tvalue=${2:value}}}",
+			"\t\t\t\tvalue=${2:value}}}"
 		],
 		"description": "Generate a mx-date-input with a label and a value property."
 	},
@@ -303,7 +303,7 @@
 			"{{mx-date-input label=(t \"${1:labelKey}\")",
 			"\t\t\t\tvalue=${2:value}",
 			"\t\t\t\trequired=true",
-			"\t\t\t\trequiredMessage=(t \"${3:messageKey}\")}}",
+			"\t\t\t\trequiredMessage=(t \"${3:messageKey}\")}}"
 		],
 		"description": "Generate a mx-date-input with a label, required, requiredMessage and a value property."
 	},
@@ -312,7 +312,7 @@
 		"body": [
 			"{{#mx-date-input label=(t \"${1:labelKey}\")",
 			"\t\t\t\tvalue=${2:value} as |input| }}",
-			"\n\t{{input.validator action=(action \"${4:actionName}\") message=(t \"${5:messageKey}\")}}",
+			"\n\t{{input.validator action=(action \"${3:actionName}\") message=(t \"${4:messageKey}\")}}",
 			"\n{{/mx-date-input}}"
 		],
 		"description": "Generate a mx-date-input with a label, required, requiredMessage, value property and a custom validator."
@@ -333,7 +333,7 @@
 		"prefix": "mx-email-input",
 		"body": [
 			"{{mx-email-input label=(t \"${1:labelKey}\")",
-			"\t\t\t\tvalue=${2:value}}}",
+			"\t\t\t\tvalue=${2:value}}}"
 		],
 		"description": "Generate a mx-email-input with a label and a value property."
 	},
@@ -343,7 +343,7 @@
 			"{{mx-email-input label=(t \"${1:labelKey}\")",
 			"\t\t\t\tvalue=${2:value}",
 			"\t\t\t\trequired=true",
-			"\t\t\t\trequiredMessage=(t \"${3:messageKey}\")}}",
+			"\t\t\t\trequiredMessage=(t \"${3:messageKey}\")}}"
 		],
 		"description": "Generate a mx-email-input with a label, required, requiredMessage and a value property."
 	},
@@ -352,7 +352,7 @@
 		"body": [
 			"{{#mx-email-input label=(t \"${1:labelKey}\")",
 			"\t\t\t\tvalue=${2:value} as |input| }}",
-			"\n\t{{input.validator action=(action \"${4:actionName}\") message=(t \"${5:messageKey}\")}}",
+			"\n\t{{input.validator action=(action \"${3:actionName}\") message=(t \"${4:messageKey}\")}}",
 			"\n{{/mx-date-input}}"
 		],
 		"description": "Generate a mx-email-input with a label, required, requiredMessage, value property and a custom validator."
@@ -566,7 +566,7 @@
 			"\t\t\tvalue=${2:value}",
 			"\t\t\trequired=true",
 			"\t\t\trequiredMessage=(t \"${3:messageKey}\" as |input| }}",
-			"\n\t{{input.validator action=(action \"${3:actionName}\") message=(t \"${4:messageKey}\")}}",
+			"\n\t{{input.validator action=(action \"${4:actionName}\") message=(t \"${5:messageKey}\")}}",
 			"\n{{/mx-input}}"
 		],
 		"description": "Generate a mx-input with a label, required, requiredMessage, value property and a custom validator."
@@ -759,7 +759,7 @@
 			"{{mx-month-year-input label=(t \"${1:labelKey}\")",
 			"\t\t\t\t\tvalue=${2:value}",
 			"\t\t\t\t\trequired=true",
-			"\t\t\t\t\trequiredMessage=(t \"${3:messageKey}\")}}",
+			"\t\t\t\t\trequiredMessage=(t \"${3:messageKey}\")}}"
 		],
 		"description": "Generate a mx-month-year-input with a label, required, requiredMessage and a value property."
 	},
@@ -768,7 +768,7 @@
 		"body": [
 			"{{#mx-month-year-input label=(t \"${1:labelKey}\")",
 			"\t\t\t\t\tvalue=${2:value} as |input| }}",
-			"\n\t{{input.validator action=(action \"${4:actionName}\") message=(t \"${5:messageKey}\")}}",
+			"\n\t{{input.validator action=(action \"${3:actionName}\") message=(t \"${4:messageKey}\")}}",
 			"\n{{/mx-month-year-input}}"
 		],
 		"description": "Generate a mx-month-year-input with a label, required, requiredMessage, value property and a custom validator."
@@ -803,7 +803,7 @@
 		"prefix": "mx-phone-number-input",
 		"body": [
 			"{{mx-phone-number-input label=(t \"${1:labelKey}\")",
-			"\t\t\t\t\t\tvalue=${2:value}}}",
+			"\t\t\t\t\t\tvalue=${2:value}}}"
 		],
 		"description": "Generate a mx-phone-number-input with a label and a value property."
 	},
@@ -813,7 +813,7 @@
 			"{{mx-phone-number-input label=(t \"${1:labelKey}\")",
 			"\t\t\t\t\t\tvalue=${2:value}",
 			"\t\t\t\t\t\trequired=true",
-			"\t\t\t\t\t\trequiredMessage=(t \"${3:messageKey}\")}}",
+			"\t\t\t\t\t\trequiredMessage=(t \"${3:messageKey}\")}}"
 		],
 		"description": "Generate a mx-phone-number-input with a label, required, requiredMessage and a value property."
 	},
@@ -822,7 +822,7 @@
 		"body": [
 			"{{#mx-phone-number-input label=(t \"${1:labelKey}\")",
 			"\t\t\t\t\t\tvalue=${2:value} as |input| }}",
-			"\n\t{{input.validator action=(action \"${4:actionName}\") message=(t \"${5:messageKey}\")}}",
+			"\n\t{{input.validator action=(action \"${3:actionName}\") message=(t \"${4:messageKey}\")}}",
 			"\n{{/mx-phone-number-input}}"
 		],
 		"description": "Generate a mx-phone-number-input with a label, required, requiredMessage, value property and a custom validator."
@@ -843,7 +843,7 @@
 		"prefix": "mx-postal-code-input",
 		"body": [
 			"{{mx-postal-code-input label=(t \"${1:labelKey}\")",
-			"\t\t\t\t\tvalue=${2:value}}}",
+			"\t\t\t\t\tvalue=${2:value}}}"
 		],
 		"description": "Generate a mx-postal-code-input with a label and a value property."
 	},
@@ -853,7 +853,7 @@
 			"{{mx-postal-code-input label=(t \"${1:labelKey}\")",
 			"\t\t\t\t\tvalue=${2:value}",
 			"\t\t\t\t\trequired=true",
-			"\t\t\t\t\trequiredMessage=(t \"${3:messageKey}\")}}",
+			"\t\t\t\t\trequiredMessage=(t \"${3:messageKey}\")}}"
 		],
 		"description": "Generate a mx-postal-code-input with a label, required, requiredMessage and a value property."
 	},
@@ -862,7 +862,7 @@
 		"body": [
 			"{{#mx-postal-code-input label=(t \"${1:labelKey}\")",
 			"\t\t\t\t\t\tvalue=${2:value} as |input| }}",
-			"\n\t{{input.validator action=(action \"${4:actionName}\") message=(t \"${5:messageKey}\")}}",
+			"\n\t{{input.validator action=(action \"${3:actionName}\") message=(t \"${4:messageKey}\")}}",
 			"\n{{/mx-postal-code-input}}"
 		],
 		"description": "Generate a mx-postal-code-input with a label, required, requiredMessage, value property and a custom validator."
@@ -883,7 +883,7 @@
 		"prefix": "mx-output",
 		"body": [
 			"{{mx-output label=(t \"${1:labelKey}\")",
-			"\t\t\tvalue=${2:value}}}",
+			"\t\t\tvalue=${2:value}}}"
 		],
 		"description": "Generate a mx-output with a label and value property."
 	},
@@ -1035,7 +1035,7 @@
 			"\t\t\tvalue=${2:value}",
 			"\t\t\trequired=true",
 			"\t\t\trequiredMessage=(t \"${3:messageKey}\" as |input| }}",
-			"\n\t{{input.validator action=(action \"${3:actionName}\") message=(t \"${4:messageKey}\")}}",
+			"\n\t{{input.validator action=(action \"${4:actionName}\") message=(t \"${5:messageKey}\")}}",
 			"\n{{/mx-textarea}}"
 		],
 		"description": "Generate a mx-textarea with a label, required, requiredMessage, value property and a custom validator."
